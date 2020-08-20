@@ -3,6 +3,14 @@
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
-    "@aws-cdk/core:stackRelativeExports": "true"
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "dev": {
+      "region": "eu-west-3",
+      "account": "031679903962"
+    },
+    "prod": {
+      "region": "eu-west-3",
+      "account": "347117652589"      
+    }
   }
 }
